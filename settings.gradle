@@ -1,0 +1,3 @@
+include ':JitpackTest'
+include ':app'
+rootProject.name = "JitpackTest"
