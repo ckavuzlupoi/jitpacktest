@@ -1,10 +1,14 @@
 package com.example.jitpacktest
 
-class TestClass {
+import com.vgemv.jsplayersdk.util.Log
+
+open class TestClass {
 
 
-    fun test(){
 
+    open fun test(): Int {
+
+    return com.vgemv.jsplayersdk.BuildConfig.VERSION_CODE
     }
 }
 
